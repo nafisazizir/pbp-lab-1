@@ -1,3 +1,7 @@
+# LINK
+[HOME](https://pbp-lab-1.herokuapp.com/) -
+[WISHLIST](https://pbp-lab-1.herokuapp.com/wishlist/login/?next=/wishlist/)
+
 # Template Proyek Django PBP
 
 Pemrograman Berbasis Platform (CSGE602022) - diselenggarakan oleh Fakultas Ilmu Komputer Universitas Indonesia, Semester Ganjil 2022/2023
