@@ -47,32 +47,6 @@
 
 <br>
 
-<div class="row">
-
-    <div class="col"></div>
-
-    <div class="col">
-        <table class="table table-striped table-hover table table-bordered">
-            <tr>
-            <th class="text-center align-middle">Item Name</th>
-            <th class="text-center align-middle">Item Price</th>
-            <th class="text-center align-middle">Description</th>
-            </tr>
-            {% comment %} Add the data below this line {% endcomment %}
-            {% for item in list_item %}
-                <tr>
-                    <td>{{item.item_name}}</td>
-                    <td>{{item.item_price}}</td>
-                    <td>{{item.description}}</td>
-                </tr>
-            {% endfor %}
-        </table>
-    </div>
-
-    <div class="col"></div>
-
-</div>
-
 <script>
     $(document).ready(function() {
         // figure out how to assign the URL to your app on Heroku
